@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+}
+
+.header {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3vh 10vw;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-bottom: 0.5vh;
+}
+
+.navbar {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-right: 10vw;
+  padding-left: 60vw;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  gap: 233px;
+  padding-top: 20px;
+}
+
+.card {
+  width: 18vw;
+  height: 40.5vh;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.card-img img {
+  width: 100%;
+  height: 22vh;
+}
+
+.date-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 10px;
+  color: grey;
+  font-size: small
+}
+
+.card-data {
+  padding: 5px 10px;
+}
+
+.heading {
+  font-size: larger;
+}
+
+.description {
+  padding-top: 10px;
+  font-size: small;
+  color: rgb(72, 72, 72);
+  margin-bottom: 10px;
+}
+
+.hr-line {
+  margin-left: 10px;
+}
+
+.reaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clap {
+  display: flex;
+  align-items: center;
+}
+
+.clap p {
+  color: rgb(144, 144, 144);
+}
+
+.clap>img {
+  height: 22px;
+  padding: 10px 10px;
+}
+
+.like>img {
+  height: 22px;
+  padding: 10px 10px;
+}
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+}
